@@ -11,6 +11,6 @@ FuncAdd::~FuncAdd()
 
 int32_t FuncAdd::add(int32_t a, int32_t b)
 {
-    std::cout << "(Hey! I double the result...) ";
-    return (a + b) * 2;
+    std::cout << "(FuncAdd is lib1-v5.0...) ";
+    return a + b;
 }
